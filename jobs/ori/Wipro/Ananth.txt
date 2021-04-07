@@ -1,0 +1,130 @@
+                                          CURRICULUM  VITAE
+
+A.ANANDHI., B.E. 	                             		     D/o,Mr.S.K.ARIGNAN,
+                                                                                         10A/3, Sri sai illam,                
+                        		                                         Thirunagar,
+                                                                                         Mohanur road,
+                                                		                 Namakkal-637001.
+							     Ph: (04286) 231119.
+OBJECTIVE:
+To pursue a challenging career in a concern,  utilize my skills for the growth of my organization, which in turn provides an environment where ethics and talent resign supreme, leading to personal and professional growth.
+
+ACADEMIC QUALIFICATION:
+
+S.S.L.C:
+
+Name of the school: Shankara Matriculation  Hr.sec school, Mannargudi.
+
+Year of  pass          : 1995- March                 Percentage              : 66.6
+
+Class of  pass          : First class
+
+HIGHER SECONDARY:
+
+Name of the school  :  Shankara Matriculation Hr.sec school,  Mannargudi.
+
+Year of  pass             : 1997 – March.            Percentage                 : 77.8
+
+Class of  pass             : First class
+
+TECHNICAL QUALIFICATION:
+
+UG Degree                 : B.E., Electronics and Communication
+
+College  of  study       : K.S.R College of  Technology., Tiruchengode.
+
+University                   :Periyar  university , Salem.
+
+Year of  pass               :  2002 – May.
+
+Percentage                   : 65
+
+Class of  pass               : First class
+
+
+
+
+
+ADDITIONAL  QUALIFICATION:
+
+Course                         : Advanced diploma in High End Software Technology
+
+Modules                       : Web technologies, java, C# & .Net.
+
+Duration                      : Jan 2001 – July 2001
+
+Grade                           :  “A”
+
+PROJECT DETAILS: 
+
+Project title      :    PC Based Telephone Billing System.
+
+Institution         :    K.S.R  College of  Technology,
+
+Period                :    4 months
+
+Team size          :    Four
+
+S/w Used            :     VB
+
+H/w Used           :     Microcontroller
+
+OS                      :     Windows 98
+
+This project aims in gathering the information like dialed numbers, duration, no.of 
+Units, date , time & cost of the call. This project involve in design of the system
+which uses PC interfacing circuits when connected parallel to the telephone,
+ displays the number dialed from the telephone set using the DTMF mode which
+uses microcontroller  89C2051.
+          
+          The bill of numbers that are dialed can be stored in a separate file and
+processed for further use. The port interfacing program is written in VB. 
+
+
+
+
+
+
+
+
+
+
+
+PERSONAL DETAILS:
+
+Name                             : A.ANANDHI
+
+Date of  Birth                :  26.02.1980
+
+Gender                           :  Female
+
+Marital Status               :  married
+
+Religion                          : Hindu
+
+Nationality                     :  Indian
+
+Languages known         : Tamil & English
+
+Qualities                        :  Dedication, hardworking & Punctual
+
+Father’s Name              :  S.K.Arignan
+
+Permanent Address     :  28, Brindavan nagar ,
+                                           Mannargudi.
+                                           Ph – 954367 (223021).
+A NOTE ON ME          : 
+           
+                          I’m such a person who can adapt to work under any situation. I can mingle with people and can perform well with a team and as such I do believe in the strengths of teamwork. I’m well versed with computer and have the intension to upgrade myself to the latest in the fields.
+
+                          If   I  am given an opportunity, I  promise that  I  shall workhard sincerely and honestly and your best satisfaction.  I  request you kindly to consider my application favourabaly to prove myself and oblige.
+
+I  here by declare that the information given above is true to the best of knowledge.
+
+Place    :
+
+Date     :
+
+                                                                                Yours   Faithfully,
+
+                                                                                    (ANANDHI.A)

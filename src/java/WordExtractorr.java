@@ -13,41 +13,23 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map.Entry;
 import java.util.Set;
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-/**
- *
- * @author stigmata
- */
 public class WordExtractorr {
 
     public static void main(String[] args) {
-        //Creating wordCountMap which holds words as keys and their occurrences as values
-
         HashMap<String, Integer> wordCountMap = new HashMap<String, Integer>();
 
         BufferedReader reader = null;
 
         try {
-            //Creating BufferedReader object
-
             reader = new BufferedReader(new FileReader("D:\\jobs\\ori\\arun.txt"));
 
-            //Reading the first line into currentLineg
             String currentLine = reader.readLine();
 
             while (currentLine != null) {
-                //splitting the currentLine into words
 
                 String[] words = currentLine.toLowerCase().split(" ");
 
-                //Iterating each word
                 for (String word : words) {
-                    //if word is already present in wordCountMap, updating its count
 
                     if (wordCountMap.containsKey(word)) {
                         wordCountMap.put(word, wordCountMap.get(word) + 1);

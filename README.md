@@ -1,6 +1,6 @@
 # Resume-Analysis
 This repository proposes job seeker and employer login. 
-This the recruitment process is simple and efficient by integrating web crawling, text mining, and natural language processing techniques. 
+The recruitment process is simple and efficient by integrating web crawling, text mining, and natural language processing techniques. 
 It is implemented using collaborative filtering algorithm. Also, to optimize the storage space for the service provider it proposes de-duplication technique avoiding replication of files. 
 For de-duplication technique it uses Proactive Replica Checking approach (PRCR). 
 Also applying natural processing techniques saves time and provides effective results in both job seeker and employer side. 

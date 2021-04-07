@@ -1,9 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-//import com.mysql.jdbc.*;
 import java.io.File;
 import java.sql.*;
 
@@ -25,11 +19,6 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import javax.servlet.ServletContext;
 import javax.servlet.http.HttpSession;
-
-/**
- *
- * @author jemi java
- */
 public class Java_Encryption1 {
 
     public static void main(String[] args) {
@@ -37,9 +26,6 @@ public class Java_Encryption1 {
     }
 
     public void fun(String patg, String nam, String k) throws Throwable {
-        //ServletContext s1=setServletContext();
-        //String path=(String)s1.getAttribute("FPath");
-        //String name=(String)s1.getAttribute("FName");
 
         Statement st;
         try {
@@ -47,16 +33,8 @@ public class Java_Encryption1 {
             String path = patg;
             String fname = nam;
             String key = k;
-
-//Folder changes 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                           
-//                        String out_put_path="C:/Cloud_Project/"+fname;
             String out_put_path = "D:/jobs/encrypt/" + fname;
 
-            //MODIFICATION 1                    
-//MODIFICATION 1
-//Folder changes 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                           
-            //MODIFICATION 1...         
-            //	String key = "squirrel123"; // needs to be at least 8 characters for DES
             FileInputStream fis1 = new FileInputStream(path);
             FileOutputStream fos1 = new FileOutputStream(out_put_path);
             encrypt(key, fis1, fos1);

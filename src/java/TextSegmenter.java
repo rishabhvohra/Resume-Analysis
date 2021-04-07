@@ -1,4 +1,3 @@
-
 import java.util.AbstractMap;
 import java.util.ArrayList;
 import java.util.List;
@@ -13,20 +12,11 @@ import java.io.IOException;
 
 public class TextSegmenter {
 
-    /**
-     * Lexical and concatenated entries must be at least 2 characters.
-     */
     private static final int MIN_LEX_LENGTH = 2;
 
-    /**
-     * Words and frequencies.
-     */
     private TreeMap<String, Double> dictionary
             = new TreeMap<String, Double>();
 
-    /**
-     * List of concatenated words to split.
-     */
     private List<String> concat = new ArrayList<String>();
 
     public TextSegmenter() {
@@ -45,9 +35,6 @@ public class TextSegmenter {
         col.close();
     }
 
-    /**
-     * Splits the text. Callers must close the streams.
-     */
     public void split(BufferedReader lexicon, BufferedReader concat)
             throws IOException {
         loadLexicon(lexicon);
@@ -55,20 +42,12 @@ public class TextSegmenter {
         split();
     }
 
-    /**
-     * Iterates over all of the contatenated text, splitting each concatenated
-     * String into English words.
-     */
     private void split() {
         for (String concat : getConcat()) {
             System.out.printf("%s::%s\n", concat, segments(concat));
         }
     }
 
-    /**
-     * Returns a number between 0 and 1 that represents how often the word is
-     * used relative to all the other words in the lexicon.
-     */
     private double getProbability(String s) {
         try {
             return getDictionary().get(s);
@@ -77,9 +56,6 @@ public class TextSegmenter {
         }
     }
 
-    /**
-     * Splits a concatenated phrase into its constituent words.
-     */
     private String segments(String concat) {
         int length = concat.length();
         List<Map.Entry<String, Double>> words
@@ -115,10 +91,6 @@ public class TextSegmenter {
         return result.toString();
     }
 
-    /**
-     * Loads all the words and word probability from the dictionary. Words are
-     * separated from the probability by a comma.
-     */
     private void loadLexicon(BufferedReader lexiconData)
             throws IOException {
         String line = null;
@@ -135,9 +107,6 @@ public class TextSegmenter {
         }
     }
 
-    /**
-     * Inserts the lines of concatenated text into the internal list.
-     */
     private void loadConcat(BufferedReader concatData)
             throws IOException {
         String line = null;
